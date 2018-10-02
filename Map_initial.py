@@ -47,7 +47,7 @@ def game_event_loop(screen):
     if held:
         holding()
     screen.fill((0,0,255))
-    screen.blit(map_1964.image, coordinates)
+    screen.blit(map_1885.image, coordinates)
 
     for picture in picture_1885_locations:
         screen.blit(picture[0], (picture[1], picture[2]))
